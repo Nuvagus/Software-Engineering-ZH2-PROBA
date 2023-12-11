@@ -1,0 +1,50 @@
+﻿body, #summary, #temp, #tempFeels {
+    display: flex;
+    justify-content: center;
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.weatContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+#intro {
+    font-family: "Bradley Hand ITC";
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#summary {
+    font-family: "Bradley Hand ITC";
+    text-align: center;
+    font-size: 45px;
+}
+
+#temp {
+    margin-top: 10px;
+    font-family: "Bradley Hand ITC";
+    font-size: 35px;
+}
+
+#tempFeels {
+    margin-top: 10px;
+    font-family: "Bradley Hand ITC";
+    font-size: 35px;
+}
